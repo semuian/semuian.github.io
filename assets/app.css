@@ -1,0 +1,45 @@
+body {
+    color: #555;
+    height: 100vh;
+}
+a {
+    transition : all 0.5s ease 0s;
+}
+a:hover {
+    opacity: 0.6!important;
+}
+header {
+    background: url(./img/cover.jpg) center center / cover no-repeat fixed;
+    height: 40vh;
+}
+main {
+    margin-top: -6rem;
+    margin-bottom: 5rem;
+}
+h1 img {
+    border-radius: 50%;
+}
+#sns {
+    list-style: none;
+    padding: 0;
+}
+#sns li {
+    margin: 0 1rem;
+}
+#sns li:first-of-type {
+    margin-left: 0;
+}
+#sns li:last-of-type {
+    margin-right: 0;
+}
+#sns a {
+    opacity: 0.8;
+    color: black;
+    font-size: 30px;
+}
+#sns a.note img {
+    margin-top: -0.4rem;
+}
+footer {
+    font-size: 0.8rem;
+}
