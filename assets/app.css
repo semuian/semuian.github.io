@@ -60,6 +60,14 @@ h5 {
 #posts .card .card-bg {
     height: 180px;
 }
+#posts .card .card-bg .badge.note {
+    font-size: 1.2rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background: #41C9B4;
+    padding: .1em .4em .25em;
+    margin-top: 1rem;
+}
 #posts .card .card-text {
     font-size: 0.8rem;
 }
