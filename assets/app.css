@@ -26,8 +26,8 @@ h1 img {
 h2 {
     font-size: 1.7rem;
 }
-h5 {
-    font-size: 1.15rem;
+h3 {
+    font-size: 1.5rem;
 }
 #sns {
     list-style: none;
@@ -58,7 +58,7 @@ h5 {
     opacity: 0.8;
 }
 #posts .card .card-bg {
-    height: 180px;
+    height: 160px;
 }
 #posts .card .card-bg .badge.note {
     font-size: 1.2rem;
@@ -67,6 +67,9 @@ h5 {
     background: #41C9B4;
     padding: .1em .4em .25em;
     margin-top: 1rem;
+}
+#posts .card h3 {
+    font-size: 1.15rem;
 }
 #posts .card .card-text {
     font-size: 0.8rem;
@@ -87,7 +90,16 @@ footer {
     font-size: 0.8rem;
 }
 @media (max-width: 575.98px) {
-    h5 {
-        font-size: 1rem;
+    h2 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1.3rem;
+    }
+    p {
+        font-size: 0.9rem;
+    }
+    #posts .card h3 {
+        font-size: 1.1rem;
     }
 }
