@@ -63,6 +63,10 @@ h5 {
 #posts .card .card-text {
     font-size: 0.8rem;
 }
+#posts .card img.card-sns {
+    opacity: 0.6;
+    margin-bottom: 0.1rem;
+}
 #posts .card > a.link {
     position:absolute;
     top:0;
