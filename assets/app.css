@@ -15,10 +15,19 @@ header {
 }
 main {
     margin-top: -6rem;
-    margin-bottom: 5rem;
+}
+h1, h2, h3, h4, h5 {
+    font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+    color: #487eb0;
 }
 h1 img {
     border-radius: 50%;
+}
+h2 {
+    font-size: 1.7rem;
+}
+h5 {
+    font-size: 1.15rem;
 }
 #sns {
     list-style: none;
@@ -40,6 +49,27 @@ h1 img {
 }
 #sns a.note img {
     margin-top: -0.4rem;
+}
+#posts .card {
+    position: relative;
+    transition : all 0.5s ease 0s;
+}
+#posts .card:hover {
+    opacity: 0.8;
+}
+#posts .card .card-bg {
+    height: 180px;
+}
+#posts .card .card-text {
+    font-size: 0.8rem;
+}
+#posts .card > a.link {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    text-indent:-999px;
 }
 footer {
     font-size: 0.8rem;
