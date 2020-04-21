@@ -95,6 +95,12 @@ h3 {
 footer {
     font-size: 0.8rem;
 }
+
+@media (min-width: 576px) {
+    .card {
+        min-height: 400px;
+    }
+}
 @media (max-width: 575.98px) {
     header {
         background: url(./img/cover.jpg) center center / cover no-repeat;
