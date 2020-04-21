@@ -96,6 +96,9 @@ footer {
     font-size: 0.8rem;
 }
 @media (max-width: 575.98px) {
+    header {
+        background: url(./img/cover.jpg) center center / cover no-repeat;
+    }
     h2 {
         font-size: 1.5rem;
     }
