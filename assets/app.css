@@ -96,9 +96,9 @@ footer {
     font-size: 0.8rem;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
     .card {
-        min-height: 400px;
+        min-height: 420px;
     }
 }
 @media (max-width: 575.98px) {
