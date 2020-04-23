@@ -2,6 +2,8 @@ body {
     position: relative;
     color: #555;
     height: 100vh;
+    text-align: justify;
+    text-justify: inter-ideograph;
 }
 a {
     transition : all 0.5s ease 0s;
@@ -99,6 +101,32 @@ footer {
 @media (min-width: 768px) {
     .card {
         min-height: 420px;
+    }
+}
+@media (max-width: 767.98px) {
+    #posts article:not(:first-of-type) .card {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    #posts article:not(:first-of-type) .card .card-bg {
+        width: 40%;
+        height: auto;
+    }
+    #posts article:not(:first-of-type) .card .card-body {
+        width: 60%;
+    }
+    #posts article:not(:first-of-type) .card .card-title {
+        margin-bottom: 0;
+    }
+    #posts article:not(:first-of-type) .card .card-text {
+        display: none;
+    }
+    #posts article:not(:first-of-type) .card .card-footer {
+        width: 100%;
     }
 }
 @media (max-width: 575.98px) {
