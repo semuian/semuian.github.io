@@ -18,6 +18,9 @@ header {
 main {
     margin-top: -6rem;
 }
+hr {
+    border-style: dashed;
+}
 h1, h2, h3, h4, h5 {
     font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
     color: #487eb0;
@@ -26,6 +29,7 @@ h1 img {
     border-radius: 50%;
 }
 h2 {
+    color: #fbc531;
     font-size: 1.7rem;
 }
 h3 {
@@ -55,6 +59,7 @@ h3 {
 #posts .card {
     position: relative;
     transition : all 0.5s ease 0s;
+    border-style: dotted;
 }
 #posts .card:hover {
     opacity: 0.8;
@@ -94,6 +99,11 @@ h3 {
     height:100%;
     text-indent:-999px;
 }
+#posts .card .card-footer {
+    border-top-style: dotted;
+    padding-top: 0!important;
+    padding-left: 0!important;
+}
 footer {
     font-size: 0.8rem;
 }
@@ -104,6 +114,9 @@ footer {
     }
 }
 @media (max-width: 767.98px) {
+    #posts article:not(:first-of-type):not(:last-of-type) {
+        margin-bottom: 0!important;
+    }
     #posts article:not(:first-of-type) .card {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
@@ -117,15 +130,19 @@ footer {
         height: auto;
     }
     #posts article:not(:first-of-type) .card .card-body {
+        padding: 1rem 0.8rem!important;
         width: 60%;
     }
     #posts article:not(:first-of-type) .card .card-title {
+        font-size: 0.9rem;
         margin-bottom: 0;
     }
     #posts article:not(:first-of-type) .card .card-text {
         display: none;
     }
     #posts article:not(:first-of-type) .card .card-footer {
+        padding-top: 0!important;
+        padding-left: 0!important;
         width: 100%;
     }
 }
