@@ -107,10 +107,47 @@ h3 {
 footer {
     font-size: 0.8rem;
 }
+@media (min-width: 992px) {
+    #posts article:first-of-type .card .card-bg {
+        min-height: 250px;
+    }
+}
 
 @media (min-width: 768px) {
-    .card {
+    #posts article:not(:first-of-type) .card {
         min-height: 420px;
+    }
+    #posts article:first-of-type {
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    #posts article:first-of-type .card {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    #posts article:first-of-type .card .card-bg {
+        width: 45%;
+        height: auto;
+    }
+    #posts article:first-of-type .card .card-body {
+        width: 55%;
+    }
+    #posts article:first-of-type .card .card-text {
+        font-size: 0.9rem;
+    }
+    #posts article:first-of-type .card .card-footer {
+        padding-top: 0!important;
+        padding-left: 0!important;
+        width: 100%;
+    }
+    #posts article:first-of-type .card .new {
+        position: relative;
+        top: 0;
     }
 }
 @media (max-width: 767.98px) {
@@ -128,6 +165,7 @@ footer {
     #posts article:not(:first-of-type) .card .card-bg {
         width: 40%;
         height: auto;
+        min-height: 100px;
     }
     #posts article:not(:first-of-type) .card .card-body {
         padding: 1rem 0.8rem!important;
@@ -161,5 +199,8 @@ footer {
     }
     #posts .card h3 {
         font-size: 1.1rem;
+    }
+    #posts .card .card-bg .badge.note {
+        font-size: 0.9rem;
     }
 }
