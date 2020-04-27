@@ -100,7 +100,7 @@ h3 {
     text-indent:-999px;
 }
 #posts .card .card-footer {
-    border-top-style: dotted;
+    border-top: 0;
     padding-top: 0!important;
     padding-left: 0!important;
 }
