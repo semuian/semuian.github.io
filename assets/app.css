@@ -70,6 +70,20 @@ h3 {
     width: 100%;
     height: 100%;
 }
+.btn-note,
+.btn-note:hover, .btn-note:focus, 
+.btn-note:active, .btn-note:active:focus, .btn-note:active:hover, .btn-note:active.focus,
+.btn-note.active, .btn-note.active:focus, .btn-note.active:hover, .btn-note.active.focus,
+.open > .dropdown-toggle.btn-note, 
+.open > .dropdown-toggle.btn-note:hover,
+.open > .dropdown-toggle.btn-note:focus, 
+.open > .dropdown-toggle.btn-note.focus,
+.btn-note.disabled:hover, .btn-note[disabled]:hover, fieldset[disabled] .btn-note:hover,
+.btn-note.disabled:focus, .btn-note[disabled]:focus, fieldset[disabled] .btn-note:focus,
+.btn-note.disabled.focus, .btn-note[disabled].focus, fieldset[disabled] .btn-note.focus {
+    border: solid 1px #41C9B4;
+    background: #41C9B4;
+}
 #posts .card {
     position: relative;
     transition : all 0.5s ease 0s;
@@ -92,6 +106,7 @@ h3 {
 }
 #posts .card .card-bg .badge.youtube {
     background: #FF0000;
+    padding: .15em .4em .2em;
 }
 #posts .card .new {
     position: absolute;
