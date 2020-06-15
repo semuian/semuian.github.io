@@ -56,6 +56,9 @@ h3 {
 #sns a.note img {
     margin-top: -0.4rem;
 }
+.note-embed {
+    margin: 0 auto;
+}
 .google {
     position: relative;
     width: 100%;
