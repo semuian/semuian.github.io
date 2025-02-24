@@ -9,3 +9,8 @@
     font-weight: 400;
     font-style: normal;
 }
+
+/* ナビゲーション */
+.navbar button:focus {
+    box-shadow: none !important;
+}
