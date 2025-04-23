@@ -14,3 +14,12 @@
 .navbar button:focus {
     box-shadow: none !important;
 }
+
+/* 小説表示 */
+@media (min-width: 768px) {
+    .kochi-desc {
+        min-height: 500px;
+        height: 80vh;
+        overflow: auto
+    }
+}
