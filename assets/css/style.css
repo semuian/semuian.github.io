@@ -1,3 +1,7 @@
+body {
+    color: #333;
+}
+
 /* フォント */
 .biz-udpmincho-regular {
     font-family: "BIZ UDPMincho", serif;
@@ -13,4 +17,31 @@
 /* ナビゲーション */
 .navbar button:focus {
     box-shadow: none !important;
+}
+
+/* ヘッダーロゴ */
+.index h1 {
+    max-width: 240px;
+}
+
+a {
+    color: #487eb0!important;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #333!important;
+}
+
+.disabled {
+    color: #333!important;
+}
+
+.btn {
+    border-color: #487eb0;
+}
+
+.btn:hover {
+    color: #fff!important;
+    background: #487eb0;
 }
