@@ -45,3 +45,8 @@ a:hover {
     color: #fff!important;
     background: #487eb0;
 }
+
+/* タテ書き */
+.writing-rl {
+    writing-mode: vertical-rl;
+}
