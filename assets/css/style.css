@@ -1,5 +1,6 @@
 body {
     color: #333;
+    word-break: break-all;
 }
 
 /* フォント */
